@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Plokemon.Classes
 {
-    class Attack
+    public class Attack
     {
         public string name;
         public int damage;

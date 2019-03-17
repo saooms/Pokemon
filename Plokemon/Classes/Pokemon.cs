@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Plokemon.Classes
 {
-    class Pokemon
+    public class Pokemon
     {
         public string name;
         public EnergyType type;
@@ -35,7 +35,10 @@ namespace Plokemon.Classes
             log += "the attack did " + damage.ToString() + " dammage to " + this.name + "\r\n";
 
             log += "his health went from (" + this.health + " / " + this.hitpoints + ") to";
-            this.health -= Convert.ToInt32(damage);
+            if ((this.health -= Convert.ToInt32(damage)) < 0)
+            {
+                this.health = 0;
+            }
             log += " (" + this.health + " / " + this.hitpoints + ") \r\n";
 
             return log;

@@ -12,9 +12,14 @@ C:\Users\saoom\source\repos\pokemon\Plokemon\bin\Debug\Plokemon.exe.config
 C:\Users\saoom\source\repos\pokemon\Plokemon\bin\Debug\Plokemon.exe
 C:\Users\saoom\source\repos\pokemon\Plokemon\bin\Debug\Plokemon.pdb
 C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.csprojAssemblyReference.cache
-C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Launch.resources
 C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Properties.Resources.resources
 C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.csproj.GenerateResource.cache
 C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.csproj.CoreCompileInputs.cache
 C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.exe
 C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.pdb
+C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Switch.resources
+C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Attack.resources
+C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Name.resources
+C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Starter.resources
+C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Battle.resources
+C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.World.resources

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Plokemon.Classes
 {
-    class Weakness
+    public class Weakness
     {
         public EnergyType type;
         public double multiplier;

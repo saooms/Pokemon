@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Plokemon.Classes
 {
-    class Pikachu : Pokemon
+    public class Pikachu : Pokemon
     {
 
         public Pikachu(string name)
@@ -15,7 +15,7 @@ namespace Plokemon.Classes
             this.type = new EnergyType("Lightning");
             this.hitpoints = 60;
             this.health = 60;
-            this.attacks = Attacks();
+            this.attacks = (Attacks());
             this.weakness = new Weakness("Fire", 1.5);
             this.resistance = new Resistance("Fighting", 20);
         }

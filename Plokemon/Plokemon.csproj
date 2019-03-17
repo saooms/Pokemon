@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Views\Battle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Battle.Designer.cs">
+      <DependentUpon>Battle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Name.Designer.cs">
+      <DependentUpon>Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Starter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Starter.Designer.cs">
+      <DependentUpon>Starter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Attack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Attack.Designer.cs">
+      <DependentUpon>Attack.cs</DependentUpon>
+    </Compile>
     <Compile Include="Classes\Attack.cs" />
     <Compile Include="Classes\Charmeleon.cs" />
     <Compile Include="Classes\EnergyType.cs" />
@@ -54,16 +78,28 @@
     <Compile Include="Classes\Pokemon.cs" />
     <Compile Include="Classes\Resistance.cs" />
     <Compile Include="Classes\Weakness.cs" />
-    <Compile Include="Launch.cs">
+    <Compile Include="Views\Switch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Launch.Designer.cs">
-      <DependentUpon>Launch.cs</DependentUpon>
+    <Compile Include="Views\Switch.Designer.cs">
+      <DependentUpon>Switch.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Launch.resx">
-      <DependentUpon>Launch.cs</DependentUpon>
+    <Compile Include="Views\World.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\World.Designer.cs">
+      <DependentUpon>World.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\Battle.resx">
+      <DependentUpon>Battle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Name.resx">
+      <DependentUpon>Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Attack.resx">
+      <DependentUpon>Attack.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -75,6 +111,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Views\Starter.resx">
+      <DependentUpon>Starter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Switch.resx">
+      <DependentUpon>Switch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\World.resx">
+      <DependentUpon>World.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,6 +132,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battle.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

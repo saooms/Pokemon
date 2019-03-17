@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Plokemon.Classes
 {
-    class Charmeleon : Pokemon
+    public class Charmeleon : Pokemon
     {
         public Charmeleon(string name)
         {

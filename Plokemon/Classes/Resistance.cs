@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Plokemon.Classes
 {
-    class Resistance
+    public class Resistance
     {
         public EnergyType type;
         public int value;

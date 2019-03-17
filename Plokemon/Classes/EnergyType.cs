@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Plokemon.Classes
 {
-    class EnergyType
+   public class EnergyType
     {
         //had verwacht dat er meerdere values zou zijn voor Energy type, zoals waar t effective tegen is....
         public string name;
