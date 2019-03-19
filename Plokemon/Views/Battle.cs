@@ -130,6 +130,7 @@ namespace Plokemon
             {
                 if (index < text.Length)
                 {
+                    // een try catch, omdat er het soms nog probeert doortegaan als de form gesloten is
                     try
                     {
                         battleLog.Invoke((MethodInvoker)(() => battleLog.Text += text[index++].ToString()));
@@ -139,7 +140,6 @@ namespace Plokemon
                         timer.Enabled = false;
                         timer.Dispose();
                     }
-                    
                     
                 }
                 else
@@ -154,9 +154,13 @@ namespace Plokemon
 
         public void ClearLog()
         {
-            timerList[0].Dispose();
-            timerList.Clear();
-            battleLog.Text = "";
+            if (timerList.Count > 0)
+            {
+                timerList[0].Enabled = false;
+                timerList[0].Dispose();
+                timerList.Clear();
+                battleLog.Text = "";
+            }
         }
 
         public void EndBattle(Boolean result)

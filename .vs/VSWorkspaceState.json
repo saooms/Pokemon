@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Plokemon",
+    "\\Plokemon\\Views"
   ],
   "SelectedNode": "\\Plokemon.sln",
   "PreviewInSolutionExplorer": false

@@ -23,3 +23,5 @@ C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Name.resources
 C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Starter.resources
 C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Battle.resources
 C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.World.resources
+C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Basic.resources
+C:\Users\saoom\source\repos\pokemon\Plokemon\obj\Debug\Plokemon.Shop.resources
