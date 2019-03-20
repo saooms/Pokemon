@@ -71,9 +71,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(9, 29);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.Size = new System.Drawing.Size(39, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "heaths:";
+            this.label3.Text = "hearts:";
             // 
             // shopButton
             // 
